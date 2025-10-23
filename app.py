@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, Aayush here from Panel F1 27!"
+    return "Hello, Aayush here from Panel F1 27!, Hello from my AWS SERVER! It's deployed!"
 
 def add(a, b):
     return a + b
